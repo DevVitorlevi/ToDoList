@@ -3,7 +3,7 @@ export default function App() {
 
   return (
     <>
-      <div className="w-full h-full bg-green">
+      <div className="w-full h-full bg-">
         Ola
       </div>
     </>
