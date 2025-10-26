@@ -15,7 +15,7 @@
   --color-pink-base: #C257A4;
   --color-pink-dark: #884074;
   //Fontes
-  --font-sans:"Cairo", sans-serif;
+  --font-sans: "Cairo", sans-serif;
   //Shadow
-  --shadow-sm:0 4px 8px 0 rgba(54, 23, 45, 0.05);
+  --shadow-sm: 0 4px 8px 0 rgba(54, 23, 45, 0.05);
 }
