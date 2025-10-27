@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router";
-import PageComponents from "./pages/page-components";
+import Home from "./pages/home";
 import LayoutMain from "./layout/layoutMain";
 
 export default function App() {
@@ -7,7 +7,7 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route element={<LayoutMain />}>
-          <Route path="/home" element={<PageComponents />} />
+          <Route path="/" element={<Home />} />
         </Route>
       </Routes>
     </BrowserRouter>

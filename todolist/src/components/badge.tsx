@@ -9,7 +9,7 @@ export const badgeVariants = cva("inline-flex items-center justify-center rounde
       secundary: "bg-pink-light",
     },
     size: {
-      sm: "py-0.5 px-2"
+      sm: "py-1 px-2.5"
     },
   },
   defaultVariants: {
