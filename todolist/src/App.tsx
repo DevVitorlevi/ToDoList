@@ -3,6 +3,7 @@ import Badge from "./components/badge";
 import Button from "./components/button";
 import ButtonIcon from "./components/button-icon";
 import Icon from "./components/icon";
+import InputCheck from "./components/input-check";
 import InputText from "./components/input-text";
 import { Text } from "./components/text";
 export default function App() {
@@ -22,6 +23,8 @@ export default function App() {
         <ButtonIcon variant={"terciary"} icon={TrashIcon}></ButtonIcon>
       </div>
       <InputText />
+      <InputCheck />
     </>
+
   )
 }
