@@ -1,6 +1,7 @@
 import TrashIcon from "./assets/icons/trash.svg?react";
 import Badge from "./components/badge";
 import Button from "./components/button";
+import ButtonIcon from "./components/button-icon";
 import Icon from "./components/icon";
 import { Text } from "./components/text";
 export default function App() {
@@ -15,6 +16,10 @@ export default function App() {
         <Badge variant={"primary"}>2 de 5</Badge>
       </div>
       <Button icon={TrashIcon} variant={"primary"} className="rounded-md">Nova Tarefa</Button>
+
+      <div>
+        <ButtonIcon variant={"terciary"} icon={TrashIcon}></ButtonIcon>
+      </div>
     </>
   )
 }
