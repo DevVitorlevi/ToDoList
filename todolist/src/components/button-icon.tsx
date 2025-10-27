@@ -1,4 +1,3 @@
-/* eslint-disable react-refresh/only-export-components */
 import type React from "react";
 import Icon from "./icon";
 import { cva, type VariantProps } from "class-variance-authority"
