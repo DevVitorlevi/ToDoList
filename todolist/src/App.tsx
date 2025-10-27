@@ -3,6 +3,7 @@ import Badge from "./components/badge";
 import Button from "./components/button";
 import ButtonIcon from "./components/button-icon";
 import Icon from "./components/icon";
+import InputText from "./components/input-text";
 import { Text } from "./components/text";
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
       <div>
         <ButtonIcon variant={"terciary"} icon={TrashIcon}></ButtonIcon>
       </div>
+      <InputText />
     </>
   )
 }
