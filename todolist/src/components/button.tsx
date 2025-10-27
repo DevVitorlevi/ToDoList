@@ -3,7 +3,7 @@ import React from "react"
 import Icon from "./icon"
 import { Text } from "./text"
 
-export const buttonVariant = cva("h-14 py-4 px-5 flex items-center gap-2 transition-all", {
+export const buttonVariant = cva("h-14 py-4 px-5 flex items-center justify-center gap-2 transition-all", {
   variants: {
     variant: {
       primary: "bg-gray-200 hover:bg-pink-light"
