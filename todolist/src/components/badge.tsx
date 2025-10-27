@@ -30,7 +30,6 @@ export const textVariants = cva("", {
   }
 })
 interface BadgeProps extends React.ComponentProps<"div">, VariantProps<typeof badgeVariants> {
-
 }
 export default function Badge({ variant, size, children, className, ...props }: BadgeProps) {
   return (
